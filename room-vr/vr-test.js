@@ -1,3 +1,4 @@
+import './localize-ui.js';
 import * as T from 'three';
 import {createVRSessionButton,positionRigAtStart} from './vr-session.js';
 const status=document.querySelector('#status'),renderer=new T.WebGLRenderer({antialias:true});

@@ -1,10 +1,11 @@
+import {t} from './i18n.js';
 import * as T from './vendor/three.module.js';
 import {cabinetMetrics,upperRowLimit} from './cabinet.js';
 export function createVRPanel(scene,api){
  const W=1000,H=1240,canvas=document.createElement('canvas');canvas.width=W;canvas.height=H;const ctx=canvas.getContext('2d'),texture=new T.CanvasTexture(canvas);texture.colorSpace=T.SRGBColorSpace;
  const mesh=new T.Mesh(new T.PlaneGeometry(.82,1.016),new T.MeshBasicMaterial({map:texture,side:T.DoubleSide,toneMapped:false}));mesh.name='Interactive VR room controls';mesh.visible=false;scene.add(mesh);let page='Layout',rgbZone='pc',targets=[];
- function text(s,x,y,size=27,color='#d7ebe5'){ctx.fillStyle=color;ctx.font=size+'px Arial';ctx.textAlign='left';ctx.fillText(s,x,y)}
- function button(label,x,y,w,h,action,active=false,fontSize=27){ctx.fillStyle=active?'#598b7c':'#2a4247';ctx.fillRect(x,y,w,h);text(label,x+20,y+h/2+10,fontSize);targets.push({x,y,w,h,action})}
+ function text(s,x,y,size=27,color='#d7ebe5',maxWidth=900-x){ctx.fillStyle=color;ctx.font=size+'px Arial';ctx.textAlign='left';ctx.fillText(t(s),x,y,maxWidth)}
+ function button(label,x,y,w,h,action,active=false,fontSize=27){ctx.fillStyle=active?'#598b7c':'#2a4247';ctx.fillRect(x,y,w,h);text(label,x+20,y+h/2+10,fontSize,'#d7ebe5',w-40);targets.push({x,y,w,h,action})}
  function slider(label,value,min,max,step,change,y,unit='cm'){
   text(label,40,y);text(Math.round(value)+' '+unit,740,y);const sy=y+22;ctx.fillStyle='#426069';ctx.fillRect(120,sy+17,650,12);const ratio=(value-min)/(max-min||1);ctx.fillStyle='#a4ddca';ctx.fillRect(120,sy+17,650*Math.max(0,Math.min(1,ratio)),12);ctx.beginPath();ctx.arc(120+650*ratio,sy+23,16,0,Math.PI*2);ctx.fill();
   button('−',40,sy,65,48,()=>change(Math.max(min,value-step)));button('+',800,sy,65,48,()=>change(Math.min(max,value+step)));
@@ -54,7 +55,7 @@ export function createVRPanel(scene,api){
    text('Colors and textures are approximate previews.',40,1030,24);text('Exact samples / board stock: check supplier.',40,1070,24);
   }else if(page==='Objects'){
    const e=api.editor,o=e.current();if(o){
-    text(o.label.slice(0,46),40,245,27);button('Previous',40,275,440,60,()=>e.select(e.index()-1));button('Next',500,275,440,60,()=>e.select(e.index()+1));
+    text(t(o.label).slice(0,60),40,245,27);button('Previous',40,275,440,60,()=>e.select(e.index()-1));button('Next',500,275,440,60,()=>e.select(e.index()+1));
     slider('East / west offset',o.x*100,-400,400,1,value=>e.change({x:value/100}),405);
     slider('Height offset',o.y*100,-250,250,1,value=>e.change({y:value/100}),525);
     slider('South / north offset',o.z*100,-400,400,1,value=>e.change({z:value/100}),645);

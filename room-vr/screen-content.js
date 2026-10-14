@@ -1,3 +1,4 @@
+import {t as translateText} from './i18n.js';
 import * as T from './vendor/three.module.js';
 export const SCREEN_CONTENT={original:'Original screen',off:'Screen off',landscape:'Mountain wallpaper',daw:'Music arrangement',crt:'Retro desktop',retro:'Animated retro game',aurora:'Animated aurora',bars:'Color bars',white:'White screen',image:'My image'};
 export function averageScreen(data,brightness=1){
@@ -29,7 +30,7 @@ export function createScreenContent(root,onChange=()=>{},onReflections=()=>{}){
   if(mode==='white'){c.fillStyle='#ffffff';c.fillRect(0,0,W,H);return}
   if(mode==='bars'){['#ffffff','#ffff00','#00ffff','#00ff00','#ff00ff','#ff0000','#0000ff'].forEach((color,i)=>{c.fillStyle=color;c.fillRect(i*W/7,0,W/7+1,H)});return}
   if(mode==='aurora'){const g=c.createLinearGradient(0,0,W,H);g.addColorStop(0,`hsl(${(t*25)%360} 85% 38%)`);g.addColorStop(.5,`hsl(${(t*25+90)%360} 95% 60%)`);g.addColorStop(1,'#070f28');c.fillStyle=g;c.fillRect(0,0,W,H);for(let i=0;i<6;i++){c.strokeStyle=`hsla(${(t*25+i*25)%360} 100% 75% / .5)`;c.lineWidth=25;c.beginPath();for(let x=0;x<=W;x+=12){const y=H*.5+Math.sin(x*.008+t+i*.4)*H*.28+i*15;x?c.lineTo(x,y):c.moveTo(x,y)}c.stroke()}return}
-  if(mode==='retro'){c.fillStyle='#15387c';c.fillRect(0,0,W,H);for(let i=0;i<20;i++){const x=((i*137-t*55)%W+W)%W;c.fillStyle='#ffffbc';c.fillRect(x,40+(i*37)%200,3,3)}c.fillStyle='#28b562';c.fillRect(0,320,W,112);c.fillStyle='#8e573d';c.fillRect(0,350,W,82);c.fillStyle='#ffd148';for(let i=0;i<8;i++)c.fillRect(((i*150-t*100)%W+W)%W,240,16,22);const y=285-Math.max(0,Math.sin(t*3))*65;c.fillStyle='#ff5066';c.fillRect(260,y,30,30);c.fillStyle='#f8d7ac';c.fillRect(266,y+6,18,12);c.fillStyle='#fff';c.font='22px monospace';c.fillText('RETRO / STAGE 01     SCORE '+Math.floor(t*10),25,35);return}
+  if(mode==='retro'){c.fillStyle='#15387c';c.fillRect(0,0,W,H);for(let i=0;i<20;i++){const x=((i*137-t*55)%W+W)%W;c.fillStyle='#ffffbc';c.fillRect(x,40+(i*37)%200,3,3)}c.fillStyle='#28b562';c.fillRect(0,320,W,112);c.fillStyle='#8e573d';c.fillRect(0,350,W,82);c.fillStyle='#ffd148';for(let i=0;i<8;i++)c.fillRect(((i*150-t*100)%W+W)%W,240,16,22);const y=285-Math.max(0,Math.sin(t*3))*65;c.fillStyle='#ff5066';c.fillRect(260,y,30,30);c.fillStyle='#f8d7ac';c.fillRect(266,y+6,18,12);c.fillStyle='#fff';c.font='22px monospace';c.fillText(translateText('RETRO / STAGE 01     SCORE '+Math.floor(t*10)),25,35);return}
   const originalMode=e.material.userData.screenMode;
   // Existing original screen artwork is reused when its content is selected.
   const source=entries.find(item=>item.material.userData.screenMode===mode)?.original.image;

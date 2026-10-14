@@ -1,10 +1,11 @@
+import {t} from './i18n.js';
 import {boardInfo} from './furniture-structure.js';
 import * as T from 'three';
 import {M} from './geometry.js';
 import {cabinetMetrics} from './cabinet.js';
 import {downloadFile} from './settings-file.js';
 const names={'retro-cabinet':'Retro gaming cabinet','retro-PC':'Retro PC corner',music:'Music return','fixed-modern-PC':'Fixed gaming PC / UPS'};
-const mm=n=>Math.round(n*1000),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
+const mm=n=>Math.round(n*1000),esc=s=>t(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
 function visible(o){for(let p=o;p;p=p.parent)if(!p.visible)return false;return true}
 function owner(o){for(let p=o.parent;p;p=p.parent)if(names[p.userData.module])return p;return null}
 function moduleId(o,pos){return owner(o)?.userData.module||(pos.x>1?'music':'retro-PC')}
@@ -31,7 +32,10 @@ export function electricalGroups(data,wattsPerMetre=14.4){
  const groups=[];for(const s of data.strips){let g=groups.find(g=>g.module===s.module&&g.level===s.level);if(!g){g={id:'G'+String(groups.length+1).padStart(2,'0'),module:s.module,level:s.level,strips:[],length:0};groups.push(g)}g.strips.push(s);g.length+=s.length}
  for(const g of groups){g.watts=g.length*wattsPerMetre;g.amps=g.watts/24}return groups;
 }
-const text=(x,y,s,size=14)=>`<text x="${x}" y="${y}" font-size="${size}">${esc(s)}</text>`;
+const text=(x,y,s,size=14,maxWidth=({48:315,461:26,542:146,764:260}[x] ?? 1030-x))=>{
+ const translated=t(s),fit=translated.length*size*.55>maxWidth?` textLength="${maxWidth}" lengthAdjust="spacingAndGlyphs"`:'';
+ return `<text x="${x}" y="${y}" font-size="${size}"${fit}>${esc(translated)}</text>`;
+};
 const line=(x,y,xx,yy,color='#64748b')=>`<path d="M${x},${y}L${xx},${yy}" stroke="${color}" fill="none"/>`;
 function svg(body,w,h){return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><style>text{font-family:Arial,sans-serif;fill:#172c36}path,polygon,rect{stroke-width:1.2} .part{fill:#e8f1ef;stroke:#377d73}</style><rect width="100%" height="100%" fill="#fff"/>${body}</svg>`}
 export function constructionSVG(data,module='all'){
@@ -47,7 +51,7 @@ export function constructionSVG(data,module='all'){
  body+=text(710,550,'South projection · overlaps shown translucent',12)+text(710,573,'Corner joins music return at desk height 806',12)+text(710,596,'Corner worktops: 32 thick · upper shelves: 24',12);
  body+=text(710,626,'Tower bay clear: 236 × 460 × 550',12)+text(710,649,'6 CD cubbies: 112 × 170 × 160 each',12)+text(710,672,'Corner diagonal front: '+mm(data.configuration.cornerFront),12)+text(710,695,'Music return: 1500 × '+mm(data.configuration.musicDepth),12);
  body+=text(35,758,'PART SHAPES · one item per modeled board · IDs correspond to the parts table',17);
- let i=0;for(const p of selected){const x=35+(i%3)*335,y=790+Math.floor(i/3)*260;body+=text(x,y,p.id+' · '+p.label.slice(0,37),12);let poly=p.polygon;if(!poly){const dimensions=[...p.dimensions].sort((a,b)=>b-a);poly=[[0,0],[dimensions[0],0],[dimensions[0],dimensions[1]],[0,dimensions[1]]]}
+ let i=0;for(const p of selected){const x=35+(i%3)*335,y=790+Math.floor(i/3)*260;body+=text(x,y,p.id+' · '+t(p.label).slice(0,46),12,310);let poly=p.polygon;if(!poly){const dimensions=[...p.dimensions].sort((a,b)=>b-a);poly=[[0,0],[dimensions[0],0],[dimensions[0],dimensions[1]],[0,dimensions[1]]]}
   const minX=Math.min(...poly.map(p=>p[0])),minY=Math.min(...poly.map(p=>p[1])),w=Math.max(...poly.map(p=>p[0]))-minX,h=Math.max(...poly.map(p=>p[1]))-minY,scale=Math.min(270/Math.max(w,1),140/Math.max(h,1));body+=`<polygon class="part" points="${poly.map(([xx,yy])=>[x+15+(xx-minX)*scale,y+22+(yy-minY)*scale].join(',')).join(' ')}"/>`;
   poly.forEach((a,j)=>{const b=poly[(j+1)%poly.length];body+=text(x+15+((a[0]+b[0])/2-minX)*scale,y+17+((a[1]+b[1])/2-minY)*scale,Math.round(Math.hypot(a[0]-b[0],a[1]-b[1])),10)});
   body+=text(x,y+185,`${w} × ${h} · thickness ${p.thickness}`,12);body+=text(x,y+207,'Y above floor: '+p.bounds.min[1]+'…'+p.bounds.max[1],12);if(p.polygon)body+=text(x,y+229,'Polygon vertices in parts JSON (room X/Z)',11);i++;
@@ -73,5 +77,5 @@ export function openDiagrams(room,c){
  const power=()=>Math.min(60,Math.max(1,Number(dialog.querySelector('#diagram-power').value)||14.4));const module=()=>dialog.querySelector('#diagram-module').value;
  const content=()=>mode==='construction'?constructionSVG(data,module()):electricalSVG(data,power());
  function render(){dialog.querySelector('#diagram-canvas').innerHTML=content();dialog.querySelector('#diagram-power-label').hidden=mode!=='electrical';dialog.querySelector('#diagram-module').disabled=mode==='electrical';for(const id of ['construction','electrical'])dialog.querySelector('#diagram-'+id).setAttribute('aria-pressed',mode===id);const parts=data.parts.filter(p=>module()==='all'||p.module===module());dialog.querySelector('#diagram-parts').innerHTML=mode==='construction'?`<table><thead><tr><th>ID</th><th>Part</th><th>Part local X × Y × Z</th><th>Thickness</th><th>Material & finish</th></tr></thead><tbody>${parts.map(p=>`<tr><td>${p.id}</td><td>${esc(p.label)}</td><td>${p.dimensions.join(' × ')}</td><td>${p.thickness} mm</td><td>${esc(p.material)}</td></tr>`).join('')}</tbody></table>`:''}
- for(const id of ['construction','electrical'])dialog.querySelector('#diagram-'+id).onclick=()=>{mode=id;render()};dialog.querySelector('#diagram-module').onchange=render;dialog.querySelector('#diagram-power').oninput=render;dialog.querySelector('#diagram-close').onclick=()=>dialog.close();dialog.querySelector('#diagram-svg').onclick=()=>downloadFile(mode+'-diagram.svg',content(),'image/svg+xml');dialog.querySelector('#diagram-json').onclick=()=>downloadFile('construction-parts-and-led-groups.json',JSON.stringify({...data,electrical:{voltage:24,wattsPerMetre:power(),groups:electricalGroups(data,power())}},null,2));dialog.querySelector('#diagram-csv').onclick=()=>downloadFile('furniture-parts.csv','ID,Module,Part,X mm,Y mm,Z mm,Thickness mm,Material\n'+data.parts.map(p=>[p.id,names[p.module],p.label,...p.dimensions,p.thickness,p.material].map(v=>'"'+String(v).replaceAll('"','""')+'"').join(',')).join('\n'),'text/csv');render();dialog.showModal();return data;
+ for(const id of ['construction','electrical'])dialog.querySelector('#diagram-'+id).onclick=()=>{mode=id;render()};dialog.querySelector('#diagram-module').onchange=render;dialog.querySelector('#diagram-power').oninput=render;dialog.querySelector('#diagram-close').onclick=()=>dialog.close();dialog.querySelector('#diagram-svg').onclick=()=>downloadFile(mode+'-diagram.svg',content(),'image/svg+xml');dialog.querySelector('#diagram-json').onclick=()=>downloadFile('construction-parts-and-led-groups.json',JSON.stringify({...data,electrical:{voltage:24,wattsPerMetre:power(),groups:electricalGroups(data,power())}},null,2));dialog.querySelector('#diagram-csv').onclick=()=>downloadFile('furniture-parts.csv',t('ID,Module,Part,X mm,Y mm,Z mm,Thickness mm,Material')+'\n'+data.parts.map(p=>[p.id,names[p.module],p.label,...p.dimensions,p.thickness,p.material].map(v=>'"'+t(v).replaceAll('"','""')+'"').join(',')).join('\n'),'text/csv');render();dialog.showModal();return data;
 }

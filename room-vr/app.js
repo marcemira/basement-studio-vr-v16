@@ -1,3 +1,4 @@
+import './localize-ui.js';
 import {createFurniturePresentation} from './furniture-presentation.js';
 import {FINISHES,SUBSTRATES,MODULE_NAMES} from './finish-catalog.js';
 import {parseSettings,downloadFile} from './settings-file.js';
