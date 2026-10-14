@@ -33,7 +33,7 @@ function observe() {
 }
 translateNode(document.documentElement);
 observe();
-const host = document.querySelector('#panel') || document.querySelector('aside');
+const host = document.querySelector('.control-header') || document.querySelector('#panel') || document.querySelector('aside');
 if (host) {
   const label = document.createElement('label');
   label.className = 'language-picker';

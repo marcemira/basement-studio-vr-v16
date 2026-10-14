@@ -12,6 +12,10 @@ Install Node.js 20 or newer, then run `npm start` and open http://localhost:8877
 
 Run `npm run build`. The `dist/` folder contains the complete static website, including models, plans, and dependencies. Upload its **contents** to any static host, at either the domain root or a subdirectory. The release ZIP contains these same files at its root. Serve it over HTTP locally or HTTPS remotely; opening HTML directly via `file://` does not support the module imports.
 
+## Control tabs
+
+The desktop panel follows the VR categories: Layout, Position, TV, Objects, Lighting, RGB, Screens, Features and Finishes. Files & plans groups settings import/export, diagrams and model downloads. Use the arrow keys or Home/End while focused on a tab to navigate. Each category scrolls independently beneath the fixed tabs.
+
 ## Interface language
 
 Spanish is the default for desktop controls, VR controls, status messages, dimensions, and live construction/LED diagrams. Use the **Idioma** selector to switch to English (`?lang=en`); settings keys and saved JSON remain compatible. The language selector reloads the viewer and reapplies the public preset.

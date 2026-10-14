@@ -1,5 +1,7 @@
 // English source strings remain available through the language selector.
 export default {
+  "Room controls": "Controles de habitación",
+  "Files & plans": "Archivos y planos",
   "Life-size VR": "Realidad virtual a escala real",
   "Building your room": "Construyendo tu habitación",
   "Life-size": "Escala real",

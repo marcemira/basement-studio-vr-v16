@@ -7,7 +7,7 @@ export function createVRPanel(scene,api){
  function text(s,x,y,size=27,color='#d7ebe5',maxWidth=900-x){ctx.fillStyle=color;ctx.font=size+'px Arial';ctx.textAlign='left';ctx.fillText(t(s),x,y,maxWidth)}
  function button(label,x,y,w,h,action,active=false,fontSize=27){ctx.fillStyle=active?'#598b7c':'#2a4247';ctx.fillRect(x,y,w,h);text(label,x+20,y+h/2+10,fontSize,'#d7ebe5',w-40);targets.push({x,y,w,h,action})}
  function slider(label,value,min,max,step,change,y,unit='cm'){
-  text(label,40,y);text(Math.round(value)+' '+unit,740,y);const sy=y+22;ctx.fillStyle='#426069';ctx.fillRect(120,sy+17,650,12);const ratio=(value-min)/(max-min||1);ctx.fillStyle='#a4ddca';ctx.fillRect(120,sy+17,650*Math.max(0,Math.min(1,ratio)),12);ctx.beginPath();ctx.arc(120+650*ratio,sy+23,16,0,Math.PI*2);ctx.fill();
+  text(label,40,y,27,'#d7ebe5',650);text(Math.round(value)+' '+unit,740,y);const sy=y+22;ctx.fillStyle='#426069';ctx.fillRect(120,sy+17,650,12);const ratio=(value-min)/(max-min||1);ctx.fillStyle='#a4ddca';ctx.fillRect(120,sy+17,650*Math.max(0,Math.min(1,ratio)),12);ctx.beginPath();ctx.arc(120+650*ratio,sy+23,16,0,Math.PI*2);ctx.fill();
   button('−',40,sy,65,48,()=>change(Math.max(min,value-step)));button('+',800,sy,65,48,()=>change(Math.min(max,value+step)));
   targets.push({x:120,y:sy,w:650,h:48,action:(u)=>change(Math.max(min,Math.min(max,Math.round((min+u*(max-min))/step)*step)))})
  }

@@ -1,3 +1,4 @@
+import './desktop-panel.js';
 import './localize-ui.js';
 import {createFurniturePresentation} from './furniture-presentation.js';
 import {FINISHES,SUBSTRATES,MODULE_NAMES} from './finish-catalog.js';
