@@ -1,0 +1,102 @@
+{
+  "width": 1.95,
+  "depth": 0.4,
+  "height": 2.5,
+  "tvInches": 55,
+  "tvHeight": 1.32,
+  "tvOffset": 0,
+  "consoleRows": 4,
+  "upperShelfHeight": 2,
+  "upperRows": 1,
+  "rightDisplay": true,
+  "glass": true,
+  "lighting": {
+    "exposure": 1.13,
+    "power": 1,
+    "shadows": true,
+    "preset": "studio",
+    "room": 0.7,
+    "pc": 0.6,
+    "shelves": 0.55,
+    "reflection": 0.4,
+    "pcColor": "#44caff",
+    "shelfColor": "#ffd39a",
+    "roomColor": "#fff0dc",
+    "sync": false,
+    "effect": "static",
+    "effectSpeed": 1,
+    "effectPaused": false
+  },
+  "storage": true,
+  "upper": true,
+  "backPanels": true,
+  "sidePanels": false,
+  "musicDepth": 0.45,
+  "cornerFront": 0.6,
+  "centerCabinet": true,
+  "cabinetCenter": 0,
+  "cabinetLighting": true,
+  "schemaVersion": 1,
+  "presentation": {
+    "mode": "furniture",
+    "target": "music",
+    "base": {
+      "frame": "negro",
+      "surfaces": "paraiso",
+      "frameColor": "#353b40",
+      "surfaceColor": "#a5aaa9",
+      "substrate": "rh",
+      "sheen": "preset"
+    },
+    "overrides": {
+      "music": {
+        "frame": "negro",
+        "surfaces": "basalto",
+        "frameColor": "#353b40",
+        "surfaceColor": "#a5aaa9",
+        "substrate": "rh",
+        "sheen": "matte"
+      }
+    }
+  },
+  "editing": {
+    "chairs": true,
+    "objects": {}
+  },
+  "screens": {
+    "gaming": {
+      "content": "original",
+      "brightness": 1,
+      "glow": true
+    },
+    "tv": {
+      "content": "original",
+      "brightness": 1,
+      "glow": true
+    },
+    "music": {
+      "content": "original",
+      "brightness": 1,
+      "glow": true
+    },
+    "retro": {
+      "content": "original",
+      "brightness": 1,
+      "glow": true
+    }
+  },
+  "navigation": {
+    "eyeHeight": 1.78,
+    "speed": 0.7,
+    "turnSpeed": 45,
+    "nudgeStep": 0.05,
+    "deskHeight": 0.75,
+    "freeWalk": true
+  },
+  "view": {
+    "ceiling": false,
+    "carpet": false,
+    "dimensions": false
+  },
+  "vrPBR": false
+}

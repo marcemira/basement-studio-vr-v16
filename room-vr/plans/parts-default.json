@@ -1,0 +1,5041 @@
+{
+  "units": "mm",
+  "configuration": {
+    "width": 1.95,
+    "depth": 0.4,
+    "height": 2.5,
+    "tvInches": 55,
+    "tvHeight": 1.32,
+    "tvOffset": 0,
+    "consoleRows": 4,
+    "upperShelfHeight": 2,
+    "upperRows": 1,
+    "rightDisplay": true,
+    "glass": true,
+    "lighting": true,
+    "storage": true,
+    "upper": true,
+    "backPanels": true,
+    "sidePanels": false,
+    "musicDepth": 0.45,
+    "cornerFront": 0.6,
+    "centerCabinet": true,
+    "cabinetCenter": 0
+  },
+  "parts": [
+    {
+      "id": "C01",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · horizontal board",
+      "dimensions": [
+        1950,
+        65,
+        400
+      ],
+      "thickness": 65,
+      "position": [
+        0,
+        32,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -975,
+          0,
+          0
+        ],
+        "max": [
+          975,
+          64,
+          400
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C02",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · horizontal board",
+      "dimensions": [
+        1950,
+        27,
+        400
+      ],
+      "thickness": 27,
+      "position": [
+        0,
+        2475,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -975,
+          2461,
+          0
+        ],
+        "max": [
+          975,
+          2489,
+          400
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C03",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · back / front",
+      "dimensions": [
+        1950,
+        2400,
+        18
+      ],
+      "thickness": 18,
+      "position": [
+        0,
+        1250,
+        10
+      ],
+      "bounds": {
+        "min": [
+          -975,
+          50,
+          1
+        ],
+        "max": [
+          975,
+          2450,
+          19
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C04",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · side / divider",
+      "dimensions": [
+        24,
+        2440,
+        400
+      ],
+      "thickness": 24,
+      "position": [
+        -963,
+        1250,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -975,
+          30,
+          0
+        ],
+        "max": [
+          -951,
+          2470,
+          400
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C05",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · side / divider",
+      "dimensions": [
+        18,
+        2400,
+        375
+      ],
+      "thickness": 18,
+      "position": [
+        -720,
+        1250,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -729,
+          50,
+          13
+        ],
+        "max": [
+          -711,
+          2450,
+          388
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C06",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · side / divider",
+      "dimensions": [
+        18,
+        2400,
+        375
+      ],
+      "thickness": 18,
+      "position": [
+        720,
+        1250,
+        200
+      ],
+      "bounds": {
+        "min": [
+          711,
+          50,
+          13
+        ],
+        "max": [
+          729,
+          2450,
+          388
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C07",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · side / divider",
+      "dimensions": [
+        24,
+        2440,
+        400
+      ],
+      "thickness": 24,
+      "position": [
+        963,
+        1250,
+        200
+      ],
+      "bounds": {
+        "min": [
+          951,
+          30,
+          0
+        ],
+        "max": [
+          975,
+          2470,
+          400
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C08",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · horizontal board",
+      "dimensions": [
+        1440,
+        18,
+        350
+      ],
+      "thickness": 18,
+      "position": [
+        0,
+        75,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -720,
+          66,
+          25
+        ],
+        "max": [
+          720,
+          84,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C09",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · horizontal board",
+      "dimensions": [
+        1440,
+        18,
+        350
+      ],
+      "thickness": 18,
+      "position": [
+        0,
+        245,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -720,
+          236,
+          25
+        ],
+        "max": [
+          720,
+          254,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C10",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · horizontal board",
+      "dimensions": [
+        1440,
+        18,
+        350
+      ],
+      "thickness": 18,
+      "position": [
+        0,
+        415,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -720,
+          406,
+          25
+        ],
+        "max": [
+          720,
+          424,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C11",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · horizontal board",
+      "dimensions": [
+        1440,
+        18,
+        350
+      ],
+      "thickness": 18,
+      "position": [
+        0,
+        585,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -720,
+          576,
+          25
+        ],
+        "max": [
+          720,
+          594,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C12",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · horizontal board",
+      "dimensions": [
+        1440,
+        18,
+        350
+      ],
+      "thickness": 18,
+      "position": [
+        0,
+        755,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -720,
+          746,
+          25
+        ],
+        "max": [
+          720,
+          764,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C13",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · side / divider",
+      "dimensions": [
+        18,
+        680,
+        350
+      ],
+      "thickness": 18,
+      "position": [
+        -720,
+        415,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -729,
+          75,
+          25
+        ],
+        "max": [
+          -711,
+          755,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C14",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · side / divider",
+      "dimensions": [
+        18,
+        680,
+        350
+      ],
+      "thickness": 18,
+      "position": [
+        -360,
+        415,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -369,
+          75,
+          25
+        ],
+        "max": [
+          -351,
+          755,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C15",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · side / divider",
+      "dimensions": [
+        18,
+        680,
+        350
+      ],
+      "thickness": 18,
+      "position": [
+        0,
+        415,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -9,
+          75,
+          25
+        ],
+        "max": [
+          9,
+          755,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C16",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · side / divider",
+      "dimensions": [
+        18,
+        680,
+        350
+      ],
+      "thickness": 18,
+      "position": [
+        360,
+        415,
+        200
+      ],
+      "bounds": {
+        "min": [
+          351,
+          75,
+          25
+        ],
+        "max": [
+          369,
+          755,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C17",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · side / divider",
+      "dimensions": [
+        18,
+        680,
+        350
+      ],
+      "thickness": 18,
+      "position": [
+        720,
+        415,
+        200
+      ],
+      "bounds": {
+        "min": [
+          711,
+          75,
+          25
+        ],
+        "max": [
+          729,
+          755,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C18",
+      "module": "retro-cabinet",
+      "label": "Console bay 1 · back / front",
+      "dimensions": [
+        330,
+        140,
+        4
+      ],
+      "thickness": 4,
+      "position": [
+        -540,
+        160,
+        385
+      ],
+      "bounds": {
+        "min": [
+          -705,
+          90,
+          383
+        ],
+        "max": [
+          -375,
+          230,
+          387
+        ]
+      },
+      "material": "Glass (specification pending)"
+    },
+    {
+      "id": "C19",
+      "module": "retro-cabinet",
+      "label": "Console bay 2 · back / front",
+      "dimensions": [
+        330,
+        140,
+        4
+      ],
+      "thickness": 4,
+      "position": [
+        -180,
+        160,
+        385
+      ],
+      "bounds": {
+        "min": [
+          -345,
+          90,
+          383
+        ],
+        "max": [
+          -15,
+          230,
+          387
+        ]
+      },
+      "material": "Glass (specification pending)"
+    },
+    {
+      "id": "C20",
+      "module": "retro-cabinet",
+      "label": "Console bay 3 · back / front",
+      "dimensions": [
+        330,
+        140,
+        4
+      ],
+      "thickness": 4,
+      "position": [
+        180,
+        160,
+        385
+      ],
+      "bounds": {
+        "min": [
+          15,
+          90,
+          383
+        ],
+        "max": [
+          345,
+          230,
+          387
+        ]
+      },
+      "material": "Glass (specification pending)"
+    },
+    {
+      "id": "C21",
+      "module": "retro-cabinet",
+      "label": "Console bay 4 · back / front",
+      "dimensions": [
+        330,
+        140,
+        4
+      ],
+      "thickness": 4,
+      "position": [
+        540,
+        160,
+        385
+      ],
+      "bounds": {
+        "min": [
+          375,
+          90,
+          383
+        ],
+        "max": [
+          705,
+          230,
+          387
+        ]
+      },
+      "material": "Glass (specification pending)"
+    },
+    {
+      "id": "C22",
+      "module": "retro-cabinet",
+      "label": "Console bay 5 · back / front",
+      "dimensions": [
+        330,
+        140,
+        4
+      ],
+      "thickness": 4,
+      "position": [
+        -540,
+        330,
+        385
+      ],
+      "bounds": {
+        "min": [
+          -705,
+          260,
+          383
+        ],
+        "max": [
+          -375,
+          400,
+          387
+        ]
+      },
+      "material": "Glass (specification pending)"
+    },
+    {
+      "id": "C23",
+      "module": "retro-cabinet",
+      "label": "Console bay 6 · back / front",
+      "dimensions": [
+        330,
+        140,
+        4
+      ],
+      "thickness": 4,
+      "position": [
+        -180,
+        330,
+        385
+      ],
+      "bounds": {
+        "min": [
+          -345,
+          260,
+          383
+        ],
+        "max": [
+          -15,
+          400,
+          387
+        ]
+      },
+      "material": "Glass (specification pending)"
+    },
+    {
+      "id": "C24",
+      "module": "retro-cabinet",
+      "label": "Console bay 7 · back / front",
+      "dimensions": [
+        330,
+        140,
+        4
+      ],
+      "thickness": 4,
+      "position": [
+        180,
+        330,
+        385
+      ],
+      "bounds": {
+        "min": [
+          15,
+          260,
+          383
+        ],
+        "max": [
+          345,
+          400,
+          387
+        ]
+      },
+      "material": "Glass (specification pending)"
+    },
+    {
+      "id": "C25",
+      "module": "retro-cabinet",
+      "label": "Console bay 8 · back / front",
+      "dimensions": [
+        330,
+        140,
+        4
+      ],
+      "thickness": 4,
+      "position": [
+        540,
+        330,
+        385
+      ],
+      "bounds": {
+        "min": [
+          375,
+          260,
+          383
+        ],
+        "max": [
+          705,
+          400,
+          387
+        ]
+      },
+      "material": "Glass (specification pending)"
+    },
+    {
+      "id": "C26",
+      "module": "retro-cabinet",
+      "label": "Console bay 9 · back / front",
+      "dimensions": [
+        330,
+        140,
+        4
+      ],
+      "thickness": 4,
+      "position": [
+        -540,
+        500,
+        385
+      ],
+      "bounds": {
+        "min": [
+          -705,
+          430,
+          383
+        ],
+        "max": [
+          -375,
+          570,
+          387
+        ]
+      },
+      "material": "Glass (specification pending)"
+    },
+    {
+      "id": "C27",
+      "module": "retro-cabinet",
+      "label": "Console bay 10 · back / front",
+      "dimensions": [
+        330,
+        140,
+        4
+      ],
+      "thickness": 4,
+      "position": [
+        -180,
+        500,
+        385
+      ],
+      "bounds": {
+        "min": [
+          -345,
+          430,
+          383
+        ],
+        "max": [
+          -15,
+          570,
+          387
+        ]
+      },
+      "material": "Glass (specification pending)"
+    },
+    {
+      "id": "C28",
+      "module": "retro-cabinet",
+      "label": "Console bay 11 · back / front",
+      "dimensions": [
+        330,
+        140,
+        4
+      ],
+      "thickness": 4,
+      "position": [
+        180,
+        500,
+        385
+      ],
+      "bounds": {
+        "min": [
+          15,
+          430,
+          383
+        ],
+        "max": [
+          345,
+          570,
+          387
+        ]
+      },
+      "material": "Glass (specification pending)"
+    },
+    {
+      "id": "C29",
+      "module": "retro-cabinet",
+      "label": "Console bay 12 · back / front",
+      "dimensions": [
+        330,
+        140,
+        4
+      ],
+      "thickness": 4,
+      "position": [
+        540,
+        500,
+        385
+      ],
+      "bounds": {
+        "min": [
+          375,
+          430,
+          383
+        ],
+        "max": [
+          705,
+          570,
+          387
+        ]
+      },
+      "material": "Glass (specification pending)"
+    },
+    {
+      "id": "C30",
+      "module": "retro-cabinet",
+      "label": "Console bay 13 · back / front",
+      "dimensions": [
+        330,
+        140,
+        4
+      ],
+      "thickness": 4,
+      "position": [
+        -540,
+        670,
+        385
+      ],
+      "bounds": {
+        "min": [
+          -705,
+          600,
+          383
+        ],
+        "max": [
+          -375,
+          740,
+          387
+        ]
+      },
+      "material": "Glass (specification pending)"
+    },
+    {
+      "id": "C31",
+      "module": "retro-cabinet",
+      "label": "Console bay 14 · back / front",
+      "dimensions": [
+        330,
+        140,
+        4
+      ],
+      "thickness": 4,
+      "position": [
+        -180,
+        670,
+        385
+      ],
+      "bounds": {
+        "min": [
+          -345,
+          600,
+          383
+        ],
+        "max": [
+          -15,
+          740,
+          387
+        ]
+      },
+      "material": "Glass (specification pending)"
+    },
+    {
+      "id": "C32",
+      "module": "retro-cabinet",
+      "label": "Console bay 15 · back / front",
+      "dimensions": [
+        330,
+        140,
+        4
+      ],
+      "thickness": 4,
+      "position": [
+        180,
+        670,
+        385
+      ],
+      "bounds": {
+        "min": [
+          15,
+          600,
+          383
+        ],
+        "max": [
+          345,
+          740,
+          387
+        ]
+      },
+      "material": "Glass (specification pending)"
+    },
+    {
+      "id": "C33",
+      "module": "retro-cabinet",
+      "label": "Console bay 16 · back / front",
+      "dimensions": [
+        330,
+        140,
+        4
+      ],
+      "thickness": 4,
+      "position": [
+        540,
+        670,
+        385
+      ],
+      "bounds": {
+        "min": [
+          375,
+          600,
+          383
+        ],
+        "max": [
+          705,
+          740,
+          387
+        ]
+      },
+      "material": "Glass (specification pending)"
+    },
+    {
+      "id": "C34",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · horizontal board",
+      "dimensions": [
+        230,
+        20,
+        350
+      ],
+      "thickness": 20,
+      "position": [
+        -847,
+        800,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -963,
+          790,
+          25
+        ],
+        "max": [
+          -732,
+          810,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C35",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · horizontal board",
+      "dimensions": [
+        230,
+        20,
+        350
+      ],
+      "thickness": 20,
+      "position": [
+        -847,
+        1205,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -963,
+          1195,
+          25
+        ],
+        "max": [
+          -732,
+          1215,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C36",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · horizontal board",
+      "dimensions": [
+        230,
+        20,
+        350
+      ],
+      "thickness": 20,
+      "position": [
+        -847,
+        1610,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -963,
+          1600,
+          25
+        ],
+        "max": [
+          -732,
+          1620,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C37",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · horizontal board",
+      "dimensions": [
+        230,
+        20,
+        350
+      ],
+      "thickness": 20,
+      "position": [
+        -847,
+        2015,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -963,
+          2005,
+          25
+        ],
+        "max": [
+          -732,
+          2025,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C38",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · horizontal board",
+      "dimensions": [
+        230,
+        20,
+        350
+      ],
+      "thickness": 20,
+      "position": [
+        -847,
+        2420,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -963,
+          2410,
+          25
+        ],
+        "max": [
+          -732,
+          2430,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C39",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · back / front",
+      "dimensions": [
+        230,
+        210,
+        18
+      ],
+      "thickness": 18,
+      "position": [
+        -847,
+        183,
+        380
+      ],
+      "bounds": {
+        "min": [
+          -963,
+          78,
+          371
+        ],
+        "max": [
+          -732,
+          288,
+          389
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C40",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · horizontal board",
+      "dimensions": [
+        215,
+        12,
+        330
+      ],
+      "thickness": 12,
+      "position": [
+        -847,
+        89,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -955,
+          83,
+          35
+        ],
+        "max": [
+          -740,
+          95,
+          365
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C41",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · side / divider",
+      "dimensions": [
+        12,
+        160,
+        330
+      ],
+      "thickness": 12,
+      "position": [
+        -949,
+        174,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -955,
+          94,
+          35
+        ],
+        "max": [
+          -943,
+          254,
+          365
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C42",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · side / divider",
+      "dimensions": [
+        12,
+        160,
+        330
+      ],
+      "thickness": 12,
+      "position": [
+        -746,
+        174,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -752,
+          94,
+          35
+        ],
+        "max": [
+          -740,
+          254,
+          365
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C43",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · back / front",
+      "dimensions": [
+        215,
+        160,
+        12
+      ],
+      "thickness": 12,
+      "position": [
+        -847,
+        174,
+        40
+      ],
+      "bounds": {
+        "min": [
+          -955,
+          94,
+          34
+        ],
+        "max": [
+          -740,
+          254,
+          46
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C44",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · back / front",
+      "dimensions": [
+        230,
+        210,
+        18
+      ],
+      "thickness": 18,
+      "position": [
+        -847,
+        407,
+        380
+      ],
+      "bounds": {
+        "min": [
+          -963,
+          302,
+          371
+        ],
+        "max": [
+          -732,
+          512,
+          389
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C45",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · horizontal board",
+      "dimensions": [
+        215,
+        12,
+        330
+      ],
+      "thickness": 12,
+      "position": [
+        -847,
+        313,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -955,
+          307,
+          35
+        ],
+        "max": [
+          -740,
+          319,
+          365
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C46",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · side / divider",
+      "dimensions": [
+        12,
+        160,
+        330
+      ],
+      "thickness": 12,
+      "position": [
+        -949,
+        398,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -955,
+          318,
+          35
+        ],
+        "max": [
+          -943,
+          478,
+          365
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C47",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · side / divider",
+      "dimensions": [
+        12,
+        160,
+        330
+      ],
+      "thickness": 12,
+      "position": [
+        -746,
+        398,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -752,
+          318,
+          35
+        ],
+        "max": [
+          -740,
+          478,
+          365
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C48",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · back / front",
+      "dimensions": [
+        215,
+        160,
+        12
+      ],
+      "thickness": 12,
+      "position": [
+        -847,
+        398,
+        40
+      ],
+      "bounds": {
+        "min": [
+          -955,
+          318,
+          34
+        ],
+        "max": [
+          -740,
+          478,
+          46
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C49",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · back / front",
+      "dimensions": [
+        230,
+        210,
+        18
+      ],
+      "thickness": 18,
+      "position": [
+        -847,
+        631,
+        380
+      ],
+      "bounds": {
+        "min": [
+          -963,
+          526,
+          371
+        ],
+        "max": [
+          -732,
+          736,
+          389
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C50",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · horizontal board",
+      "dimensions": [
+        215,
+        12,
+        330
+      ],
+      "thickness": 12,
+      "position": [
+        -847,
+        537,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -955,
+          531,
+          35
+        ],
+        "max": [
+          -740,
+          543,
+          365
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C51",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · side / divider",
+      "dimensions": [
+        12,
+        160,
+        330
+      ],
+      "thickness": 12,
+      "position": [
+        -949,
+        622,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -955,
+          542,
+          35
+        ],
+        "max": [
+          -943,
+          702,
+          365
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C52",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · side / divider",
+      "dimensions": [
+        12,
+        160,
+        330
+      ],
+      "thickness": 12,
+      "position": [
+        -746,
+        622,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -752,
+          542,
+          35
+        ],
+        "max": [
+          -740,
+          702,
+          365
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C53",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · back / front",
+      "dimensions": [
+        215,
+        160,
+        12
+      ],
+      "thickness": 12,
+      "position": [
+        -847,
+        622,
+        40
+      ],
+      "bounds": {
+        "min": [
+          -955,
+          542,
+          34
+        ],
+        "max": [
+          -740,
+          702,
+          46
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C54",
+      "module": "retro-cabinet",
+      "label": "Side display glass · back / front",
+      "dimensions": [
+        230,
+        1640,
+        4
+      ],
+      "thickness": 4,
+      "position": [
+        -847,
+        1620,
+        385
+      ],
+      "bounds": {
+        "min": [
+          -963,
+          800,
+          383
+        ],
+        "max": [
+          -732,
+          2440,
+          387
+        ]
+      },
+      "material": "Glass (specification pending)"
+    },
+    {
+      "id": "C55",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · horizontal board",
+      "dimensions": [
+        230,
+        20,
+        350
+      ],
+      "thickness": 20,
+      "position": [
+        847,
+        800,
+        200
+      ],
+      "bounds": {
+        "min": [
+          732,
+          790,
+          25
+        ],
+        "max": [
+          963,
+          810,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C56",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · horizontal board",
+      "dimensions": [
+        230,
+        20,
+        350
+      ],
+      "thickness": 20,
+      "position": [
+        847,
+        1205,
+        200
+      ],
+      "bounds": {
+        "min": [
+          732,
+          1195,
+          25
+        ],
+        "max": [
+          963,
+          1215,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C57",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · horizontal board",
+      "dimensions": [
+        230,
+        20,
+        350
+      ],
+      "thickness": 20,
+      "position": [
+        847,
+        1610,
+        200
+      ],
+      "bounds": {
+        "min": [
+          732,
+          1600,
+          25
+        ],
+        "max": [
+          963,
+          1620,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C58",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · horizontal board",
+      "dimensions": [
+        230,
+        20,
+        350
+      ],
+      "thickness": 20,
+      "position": [
+        847,
+        2015,
+        200
+      ],
+      "bounds": {
+        "min": [
+          732,
+          2005,
+          25
+        ],
+        "max": [
+          963,
+          2025,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C59",
+      "module": "retro-cabinet",
+      "label": "Retro gaming cabinet · horizontal board",
+      "dimensions": [
+        230,
+        20,
+        350
+      ],
+      "thickness": 20,
+      "position": [
+        847,
+        2420,
+        200
+      ],
+      "bounds": {
+        "min": [
+          732,
+          2410,
+          25
+        ],
+        "max": [
+          963,
+          2430,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C60",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · back / front",
+      "dimensions": [
+        230,
+        210,
+        18
+      ],
+      "thickness": 18,
+      "position": [
+        847,
+        183,
+        380
+      ],
+      "bounds": {
+        "min": [
+          732,
+          78,
+          371
+        ],
+        "max": [
+          963,
+          288,
+          389
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C61",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · horizontal board",
+      "dimensions": [
+        215,
+        12,
+        330
+      ],
+      "thickness": 12,
+      "position": [
+        847,
+        89,
+        200
+      ],
+      "bounds": {
+        "min": [
+          740,
+          83,
+          35
+        ],
+        "max": [
+          955,
+          95,
+          365
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C62",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · side / divider",
+      "dimensions": [
+        12,
+        160,
+        330
+      ],
+      "thickness": 12,
+      "position": [
+        746,
+        174,
+        200
+      ],
+      "bounds": {
+        "min": [
+          740,
+          94,
+          35
+        ],
+        "max": [
+          752,
+          254,
+          365
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C63",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · side / divider",
+      "dimensions": [
+        12,
+        160,
+        330
+      ],
+      "thickness": 12,
+      "position": [
+        949,
+        174,
+        200
+      ],
+      "bounds": {
+        "min": [
+          943,
+          94,
+          35
+        ],
+        "max": [
+          955,
+          254,
+          365
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C64",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · back / front",
+      "dimensions": [
+        215,
+        160,
+        12
+      ],
+      "thickness": 12,
+      "position": [
+        847,
+        174,
+        40
+      ],
+      "bounds": {
+        "min": [
+          740,
+          94,
+          34
+        ],
+        "max": [
+          955,
+          254,
+          46
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C65",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · back / front",
+      "dimensions": [
+        230,
+        210,
+        18
+      ],
+      "thickness": 18,
+      "position": [
+        847,
+        407,
+        380
+      ],
+      "bounds": {
+        "min": [
+          732,
+          302,
+          371
+        ],
+        "max": [
+          963,
+          512,
+          389
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C66",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · horizontal board",
+      "dimensions": [
+        215,
+        12,
+        330
+      ],
+      "thickness": 12,
+      "position": [
+        847,
+        313,
+        200
+      ],
+      "bounds": {
+        "min": [
+          740,
+          307,
+          35
+        ],
+        "max": [
+          955,
+          319,
+          365
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C67",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · side / divider",
+      "dimensions": [
+        12,
+        160,
+        330
+      ],
+      "thickness": 12,
+      "position": [
+        746,
+        398,
+        200
+      ],
+      "bounds": {
+        "min": [
+          740,
+          318,
+          35
+        ],
+        "max": [
+          752,
+          478,
+          365
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C68",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · side / divider",
+      "dimensions": [
+        12,
+        160,
+        330
+      ],
+      "thickness": 12,
+      "position": [
+        949,
+        398,
+        200
+      ],
+      "bounds": {
+        "min": [
+          943,
+          318,
+          35
+        ],
+        "max": [
+          955,
+          478,
+          365
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C69",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · back / front",
+      "dimensions": [
+        215,
+        160,
+        12
+      ],
+      "thickness": 12,
+      "position": [
+        847,
+        398,
+        40
+      ],
+      "bounds": {
+        "min": [
+          740,
+          318,
+          34
+        ],
+        "max": [
+          955,
+          478,
+          46
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C70",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · back / front",
+      "dimensions": [
+        230,
+        210,
+        18
+      ],
+      "thickness": 18,
+      "position": [
+        847,
+        631,
+        380
+      ],
+      "bounds": {
+        "min": [
+          732,
+          526,
+          371
+        ],
+        "max": [
+          963,
+          736,
+          389
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C71",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · horizontal board",
+      "dimensions": [
+        215,
+        12,
+        330
+      ],
+      "thickness": 12,
+      "position": [
+        847,
+        537,
+        200
+      ],
+      "bounds": {
+        "min": [
+          740,
+          531,
+          35
+        ],
+        "max": [
+          955,
+          543,
+          365
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C72",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · side / divider",
+      "dimensions": [
+        12,
+        160,
+        330
+      ],
+      "thickness": 12,
+      "position": [
+        746,
+        622,
+        200
+      ],
+      "bounds": {
+        "min": [
+          740,
+          542,
+          35
+        ],
+        "max": [
+          752,
+          702,
+          365
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C73",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · side / divider",
+      "dimensions": [
+        12,
+        160,
+        330
+      ],
+      "thickness": 12,
+      "position": [
+        949,
+        622,
+        200
+      ],
+      "bounds": {
+        "min": [
+          943,
+          542,
+          35
+        ],
+        "max": [
+          955,
+          702,
+          365
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C74",
+      "module": "retro-cabinet",
+      "label": "Cartridge drawer · back / front",
+      "dimensions": [
+        215,
+        160,
+        12
+      ],
+      "thickness": 12,
+      "position": [
+        847,
+        622,
+        40
+      ],
+      "bounds": {
+        "min": [
+          740,
+          542,
+          34
+        ],
+        "max": [
+          955,
+          702,
+          46
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "C75",
+      "module": "retro-cabinet",
+      "label": "Side display glass · back / front",
+      "dimensions": [
+        230,
+        1640,
+        4
+      ],
+      "thickness": 4,
+      "position": [
+        847,
+        1620,
+        385
+      ],
+      "bounds": {
+        "min": [
+          732,
+          800,
+          383
+        ],
+        "max": [
+          963,
+          2440,
+          387
+        ]
+      },
+      "material": "Glass (specification pending)"
+    },
+    {
+      "id": "C76",
+      "module": "retro-cabinet",
+      "label": "Above-TV display shelf 1",
+      "dimensions": [
+        1440,
+        18,
+        350
+      ],
+      "thickness": 18,
+      "position": [
+        0,
+        2000,
+        200
+      ],
+      "bounds": {
+        "min": [
+          -720,
+          1991,
+          25
+        ],
+        "max": [
+          720,
+          2009,
+          375
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "C77",
+      "module": "retro-cabinet",
+      "label": "Upper glazed display row 1 · back / front",
+      "dimensions": [
+        1410,
+        414,
+        4
+      ],
+      "thickness": 4,
+      "position": [
+        0,
+        2226,
+        385
+      ],
+      "bounds": {
+        "min": [
+          -705,
+          2019,
+          383
+        ],
+        "max": [
+          705,
+          2434,
+          387
+        ]
+      },
+      "material": "Glass (specification pending)"
+    },
+    {
+      "id": "E01",
+      "module": "fixed-modern-PC",
+      "label": "Fixed HYTE desktop",
+      "dimensions": [
+        925,
+        32,
+        550
+      ],
+      "thickness": 32,
+      "position": [
+        -1437,
+        790,
+        275
+      ],
+      "bounds": {
+        "min": [
+          -1900,
+          774,
+          0
+        ],
+        "max": [
+          -975,
+          806,
+          550
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "E02",
+      "module": "fixed-modern-PC",
+      "label": "Fixed gaming PC / UPS · side / divider",
+      "dimensions": [
+        24,
+        770,
+        550
+      ],
+      "thickness": 24,
+      "position": [
+        -1888,
+        385,
+        275
+      ],
+      "bounds": {
+        "min": [
+          -1900,
+          0,
+          0
+        ],
+        "max": [
+          -1876,
+          770,
+          550
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "E03",
+      "module": "fixed-modern-PC",
+      "label": "Fixed gaming PC / UPS · side / divider",
+      "dimensions": [
+        24,
+        770,
+        550
+      ],
+      "thickness": 24,
+      "position": [
+        -987,
+        385,
+        275
+      ],
+      "bounds": {
+        "min": [
+          -999,
+          0,
+          0
+        ],
+        "max": [
+          -975,
+          770,
+          550
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "E04",
+      "module": "fixed-modern-PC",
+      "label": "Fixed gaming PC / UPS · horizontal board",
+      "dimensions": [
+        877,
+        24,
+        510
+      ],
+      "thickness": 24,
+      "position": [
+        -1437,
+        120,
+        275
+      ],
+      "bounds": {
+        "min": [
+          -1876,
+          108,
+          20
+        ],
+        "max": [
+          -999,
+          132,
+          530
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "E05",
+      "module": "fixed-modern-PC",
+      "label": "Fixed gaming PC / UPS · back / front",
+      "dimensions": [
+        877,
+        680,
+        22
+      ],
+      "thickness": 22,
+      "position": [
+        -1437,
+        420,
+        22
+      ],
+      "bounds": {
+        "min": [
+          -1876,
+          80,
+          11
+        ],
+        "max": [
+          -999,
+          760,
+          33
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "E06",
+      "module": "fixed-modern-PC",
+      "label": "Southeast PC display shelf 1",
+      "dimensions": [
+        905,
+        24,
+        270
+      ],
+      "thickness": 24,
+      "position": [
+        -1437,
+        1502,
+        165
+      ],
+      "bounds": {
+        "min": [
+          -1890,
+          1490,
+          30
+        ],
+        "max": [
+          -985,
+          1514,
+          300
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "E07",
+      "module": "fixed-modern-PC",
+      "label": "Southeast PC display shelf 2",
+      "dimensions": [
+        905,
+        24,
+        270
+      ],
+      "thickness": 24,
+      "position": [
+        -1437,
+        1812,
+        165
+      ],
+      "bounds": {
+        "min": [
+          -1890,
+          1800,
+          30
+        ],
+        "max": [
+          -985,
+          1824,
+          300
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "E08",
+      "module": "fixed-modern-PC",
+      "label": "Southeast PC display shelf 3",
+      "dimensions": [
+        905,
+        24,
+        270
+      ],
+      "thickness": 24,
+      "position": [
+        -1437,
+        2122,
+        165
+      ],
+      "bounds": {
+        "min": [
+          -1890,
+          2110,
+          30
+        ],
+        "max": [
+          -985,
+          2134,
+          300
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "M01",
+      "module": "music",
+      "label": "Music return · side / divider",
+      "dimensions": [
+        45,
+        750,
+        370
+      ],
+      "thickness": 45,
+      "position": [
+        1675,
+        400,
+        911
+      ],
+      "bounds": {
+        "min": [
+          1490,
+          25,
+          889
+        ],
+        "max": [
+          1860,
+          775,
+          934
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "M02",
+      "module": "music",
+      "label": "Music return · side / divider",
+      "dimensions": [
+        45,
+        750,
+        370
+      ],
+      "thickness": 45,
+      "position": [
+        1675,
+        400,
+        2337
+      ],
+      "bounds": {
+        "min": [
+          1490,
+          25,
+          2315
+        ],
+        "max": [
+          1860,
+          775,
+          2360
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "M03",
+      "module": "music",
+      "label": "Music return · back / front",
+      "dimensions": [
+        1430,
+        70,
+        25
+      ],
+      "thickness": 25,
+      "position": [
+        1880,
+        740,
+        1624
+      ],
+      "bounds": {
+        "min": [
+          1867,
+          705,
+          909
+        ],
+        "max": [
+          1893,
+          775,
+          2339
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "M04",
+      "module": "music",
+      "label": "88-key sliding tray",
+      "dimensions": [
+        1430,
+        25,
+        335
+      ],
+      "thickness": 25,
+      "position": [
+        1675,
+        550,
+        1624
+      ],
+      "bounds": {
+        "min": [
+          1507,
+          537,
+          909
+        ],
+        "max": [
+          1843,
+          563,
+          2339
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "M05",
+      "module": "music",
+      "label": "Joined music return worktop",
+      "dimensions": [
+        1500,
+        32,
+        450
+      ],
+      "thickness": 32,
+      "position": [
+        1675,
+        790,
+        1624
+      ],
+      "bounds": {
+        "min": [
+          1450,
+          774,
+          874
+        ],
+        "max": [
+          1900,
+          806,
+          2374
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "M06",
+      "module": "music",
+      "label": "Music return upper shelf 1",
+      "dimensions": [
+        1500,
+        24,
+        210
+      ],
+      "thickness": 24,
+      "position": [
+        1785,
+        1502,
+        1624
+      ],
+      "bounds": {
+        "min": [
+          1680,
+          1490,
+          874
+        ],
+        "max": [
+          1890,
+          1514,
+          2374
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "M07",
+      "module": "music",
+      "label": "Music return upper shelf 2",
+      "dimensions": [
+        1500,
+        24,
+        210
+      ],
+      "thickness": 24,
+      "position": [
+        1785,
+        1812,
+        1624
+      ],
+      "bounds": {
+        "min": [
+          1680,
+          1800,
+          874
+        ],
+        "max": [
+          1890,
+          1824,
+          2374
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "M08",
+      "module": "music",
+      "label": "Music return upper shelf 3",
+      "dimensions": [
+        1500,
+        24,
+        210
+      ],
+      "thickness": 24,
+      "position": [
+        1785,
+        2122,
+        1624
+      ],
+      "bounds": {
+        "min": [
+          1680,
+          2110,
+          874
+        ],
+        "max": [
+          1890,
+          2134,
+          2374
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "M09",
+      "module": "music",
+      "label": "Music return back panel",
+      "dimensions": [
+        25,
+        2460,
+        1500
+      ],
+      "thickness": 25,
+      "position": [
+        1882,
+        1230,
+        1624
+      ],
+      "bounds": {
+        "min": [
+          1869,
+          0,
+          874
+        ],
+        "max": [
+          1895,
+          2460,
+          2374
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "R01",
+      "module": "retro-PC",
+      "label": "Retro PC diagonal worktop",
+      "dimensions": [
+        925,
+        32,
+        874
+      ],
+      "thickness": 32,
+      "polygon": [
+        [
+          975,
+          0
+        ],
+        [
+          1900,
+          0
+        ],
+        [
+          1900,
+          874
+        ],
+        [
+          1450,
+          874
+        ],
+        [
+          1026,
+          450
+        ],
+        [
+          975,
+          450
+        ]
+      ],
+      "position": [
+        0,
+        774,
+        0
+      ],
+      "bounds": {
+        "min": [
+          975,
+          774,
+          0
+        ],
+        "max": [
+          1900,
+          806,
+          874
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "R02",
+      "module": "retro-PC",
+      "label": "Tower bay side",
+      "dimensions": [
+        24,
+        598,
+        460
+      ],
+      "thickness": 24,
+      "position": [
+        1628,
+        367,
+        250
+      ],
+      "bounds": {
+        "min": [
+          1616,
+          68,
+          20
+        ],
+        "max": [
+          1640,
+          666,
+          480
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "R03",
+      "module": "retro-PC",
+      "label": "Tower bay side",
+      "dimensions": [
+        24,
+        598,
+        460
+      ],
+      "thickness": 24,
+      "position": [
+        1888,
+        367,
+        250
+      ],
+      "bounds": {
+        "min": [
+          1876,
+          68,
+          20
+        ],
+        "max": [
+          1900,
+          666,
+          480
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "R04",
+      "module": "retro-PC",
+      "label": "Tower bay base",
+      "dimensions": [
+        236,
+        24,
+        460
+      ],
+      "thickness": 24,
+      "position": [
+        1758,
+        80,
+        250
+      ],
+      "bounds": {
+        "min": [
+          1640,
+          68,
+          20
+        ],
+        "max": [
+          1876,
+          92,
+          480
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "R05",
+      "module": "retro-PC",
+      "label": "Tower bay cap",
+      "dimensions": [
+        236,
+        24,
+        460
+      ],
+      "thickness": 24,
+      "position": [
+        1758,
+        654,
+        250
+      ],
+      "bounds": {
+        "min": [
+          1640,
+          642,
+          20
+        ],
+        "max": [
+          1876,
+          666,
+          480
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "R06",
+      "module": "retro-PC",
+      "label": "Retro keyboard sliding tray",
+      "dimensions": [
+        560,
+        25,
+        220
+      ],
+      "thickness": 25,
+      "position": [
+        1337,
+        703,
+        563
+      ],
+      "bounds": {
+        "min": [
+          1061,
+          690,
+          287
+        ],
+        "max": [
+          1613,
+          716,
+          839
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "R07",
+      "module": "retro-PC",
+      "label": "Retro PC corner upper shelf 1",
+      "dimensions": [
+        905,
+        24,
+        844
+      ],
+      "thickness": 24,
+      "polygon": [
+        [
+          975,
+          30
+        ],
+        [
+          1880,
+          30
+        ],
+        [
+          1880,
+          874
+        ],
+        [
+          1670,
+          874
+        ],
+        [
+          1670,
+          864
+        ],
+        [
+          1026,
+          220
+        ],
+        [
+          975,
+          220
+        ]
+      ],
+      "position": [
+        0,
+        1490,
+        0
+      ],
+      "bounds": {
+        "min": [
+          975,
+          1490,
+          30
+        ],
+        "max": [
+          1880,
+          1514,
+          874
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "R08",
+      "module": "retro-PC",
+      "label": "CD compartment divider",
+      "dimensions": [
+        12,
+        170,
+        160
+      ],
+      "thickness": 12,
+      "position": [
+        1780,
+        1599,
+        590
+      ],
+      "bounds": {
+        "min": [
+          1700,
+          1514,
+          584
+        ],
+        "max": [
+          1860,
+          1684,
+          596
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "R09",
+      "module": "retro-PC",
+      "label": "CD compartment divider",
+      "dimensions": [
+        12,
+        170,
+        160
+      ],
+      "thickness": 12,
+      "position": [
+        1780,
+        1599,
+        714
+      ],
+      "bounds": {
+        "min": [
+          1700,
+          1514,
+          708
+        ],
+        "max": [
+          1860,
+          1684,
+          720
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "R10",
+      "module": "retro-PC",
+      "label": "CD compartment divider",
+      "dimensions": [
+        12,
+        170,
+        160
+      ],
+      "thickness": 12,
+      "position": [
+        1780,
+        1599,
+        838
+      ],
+      "bounds": {
+        "min": [
+          1700,
+          1514,
+          832
+        ],
+        "max": [
+          1860,
+          1684,
+          844
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "R11",
+      "module": "retro-PC",
+      "label": "CD compartment cap",
+      "dimensions": [
+        260,
+        24,
+        160
+      ],
+      "thickness": 24,
+      "position": [
+        1780,
+        1696,
+        714
+      ],
+      "bounds": {
+        "min": [
+          1700,
+          1684,
+          584
+        ],
+        "max": [
+          1860,
+          1708,
+          844
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "R12",
+      "module": "retro-PC",
+      "label": "Retro PC corner upper shelf 2",
+      "dimensions": [
+        905,
+        24,
+        844
+      ],
+      "thickness": 24,
+      "polygon": [
+        [
+          975,
+          30
+        ],
+        [
+          1880,
+          30
+        ],
+        [
+          1880,
+          874
+        ],
+        [
+          1670,
+          874
+        ],
+        [
+          1670,
+          864
+        ],
+        [
+          1026,
+          220
+        ],
+        [
+          975,
+          220
+        ]
+      ],
+      "position": [
+        0,
+        1800,
+        0
+      ],
+      "bounds": {
+        "min": [
+          975,
+          1800,
+          30
+        ],
+        "max": [
+          1880,
+          1824,
+          874
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "R13",
+      "module": "retro-PC",
+      "label": "CD compartment divider",
+      "dimensions": [
+        12,
+        170,
+        160
+      ],
+      "thickness": 12,
+      "position": [
+        1780,
+        1909,
+        590
+      ],
+      "bounds": {
+        "min": [
+          1700,
+          1824,
+          584
+        ],
+        "max": [
+          1860,
+          1994,
+          596
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "R14",
+      "module": "retro-PC",
+      "label": "CD compartment divider",
+      "dimensions": [
+        12,
+        170,
+        160
+      ],
+      "thickness": 12,
+      "position": [
+        1780,
+        1909,
+        714
+      ],
+      "bounds": {
+        "min": [
+          1700,
+          1824,
+          708
+        ],
+        "max": [
+          1860,
+          1994,
+          720
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "R15",
+      "module": "retro-PC",
+      "label": "CD compartment divider",
+      "dimensions": [
+        12,
+        170,
+        160
+      ],
+      "thickness": 12,
+      "position": [
+        1780,
+        1909,
+        838
+      ],
+      "bounds": {
+        "min": [
+          1700,
+          1824,
+          832
+        ],
+        "max": [
+          1860,
+          1994,
+          844
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "R16",
+      "module": "retro-PC",
+      "label": "CD compartment cap",
+      "dimensions": [
+        260,
+        24,
+        160
+      ],
+      "thickness": 24,
+      "position": [
+        1780,
+        2006,
+        714
+      ],
+      "bounds": {
+        "min": [
+          1700,
+          1994,
+          584
+        ],
+        "max": [
+          1860,
+          2018,
+          844
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "R17",
+      "module": "retro-PC",
+      "label": "Retro PC corner upper shelf 3",
+      "dimensions": [
+        905,
+        24,
+        844
+      ],
+      "thickness": 24,
+      "polygon": [
+        [
+          975,
+          30
+        ],
+        [
+          1880,
+          30
+        ],
+        [
+          1880,
+          874
+        ],
+        [
+          1670,
+          874
+        ],
+        [
+          1670,
+          864
+        ],
+        [
+          1026,
+          220
+        ],
+        [
+          975,
+          220
+        ]
+      ],
+      "position": [
+        0,
+        2110,
+        0
+      ],
+      "bounds": {
+        "min": [
+          975,
+          2110,
+          30
+        ],
+        "max": [
+          1880,
+          2134,
+          874
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "R18",
+      "module": "retro-PC",
+      "label": "CD compartment divider",
+      "dimensions": [
+        12,
+        170,
+        160
+      ],
+      "thickness": 12,
+      "position": [
+        1780,
+        2219,
+        590
+      ],
+      "bounds": {
+        "min": [
+          1700,
+          2134,
+          584
+        ],
+        "max": [
+          1860,
+          2304,
+          596
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "R19",
+      "module": "retro-PC",
+      "label": "CD compartment divider",
+      "dimensions": [
+        12,
+        170,
+        160
+      ],
+      "thickness": 12,
+      "position": [
+        1780,
+        2219,
+        714
+      ],
+      "bounds": {
+        "min": [
+          1700,
+          2134,
+          708
+        ],
+        "max": [
+          1860,
+          2304,
+          720
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "R20",
+      "module": "retro-PC",
+      "label": "CD compartment divider",
+      "dimensions": [
+        12,
+        170,
+        160
+      ],
+      "thickness": 12,
+      "position": [
+        1780,
+        2219,
+        838
+      ],
+      "bounds": {
+        "min": [
+          1700,
+          2134,
+          832
+        ],
+        "max": [
+          1860,
+          2304,
+          844
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "R21",
+      "module": "retro-PC",
+      "label": "CD compartment cap",
+      "dimensions": [
+        260,
+        24,
+        160
+      ],
+      "thickness": 24,
+      "position": [
+        1780,
+        2316,
+        714
+      ],
+      "bounds": {
+        "min": [
+          1700,
+          2304,
+          584
+        ],
+        "max": [
+          1860,
+          2328,
+          844
+        ]
+      },
+      "material": "Melamine over MDF · Current light grey"
+    },
+    {
+      "id": "R22",
+      "module": "retro-PC",
+      "label": "Retro corner back panel",
+      "dimensions": [
+        905,
+        2460,
+        25
+      ],
+      "thickness": 25,
+      "position": [
+        1438,
+        1230,
+        15
+      ],
+      "bounds": {
+        "min": [
+          985,
+          0,
+          2
+        ],
+        "max": [
+          1890,
+          2460,
+          28
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    },
+    {
+      "id": "R23",
+      "module": "retro-PC",
+      "label": "Retro west back panel",
+      "dimensions": [
+        25,
+        2460,
+        854
+      ],
+      "thickness": 25,
+      "position": [
+        1882,
+        1230,
+        437
+      ],
+      "bounds": {
+        "min": [
+          1869,
+          0,
+          10
+        ],
+        "max": [
+          1895,
+          2460,
+          864
+        ]
+      },
+      "material": "Melamine over MDF · Current graphite"
+    }
+  ],
+  "strips": [
+    {
+      "id": "L001",
+      "module": "retro-cabinet",
+      "level": "Console row · 223 mm",
+      "length": 0.3100000023841858,
+      "position": [
+        -0.54,
+        0.223,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L002",
+      "module": "retro-cabinet",
+      "level": "Console row · 223 mm",
+      "length": 0.3100000023841858,
+      "position": [
+        -0.17999999999999994,
+        0.223,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L003",
+      "module": "retro-cabinet",
+      "level": "Console row · 223 mm",
+      "length": 0.3100000023841858,
+      "position": [
+        0.17999999999999994,
+        0.223,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L004",
+      "module": "retro-cabinet",
+      "level": "Console row · 223 mm",
+      "length": 0.3100000023841858,
+      "position": [
+        0.54,
+        0.223,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L005",
+      "module": "retro-cabinet",
+      "level": "Console row · 393 mm",
+      "length": 0.3100000023841858,
+      "position": [
+        -0.54,
+        0.39300000000000007,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L006",
+      "module": "retro-cabinet",
+      "level": "Console row · 393 mm",
+      "length": 0.3100000023841858,
+      "position": [
+        -0.17999999999999994,
+        0.39300000000000007,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L007",
+      "module": "retro-cabinet",
+      "level": "Console row · 393 mm",
+      "length": 0.3100000023841858,
+      "position": [
+        0.17999999999999994,
+        0.39300000000000007,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L008",
+      "module": "retro-cabinet",
+      "level": "Console row · 393 mm",
+      "length": 0.3100000023841858,
+      "position": [
+        0.54,
+        0.39300000000000007,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L009",
+      "module": "retro-cabinet",
+      "level": "Console row · 563 mm",
+      "length": 0.3100000023841858,
+      "position": [
+        -0.54,
+        0.5630000000000001,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L010",
+      "module": "retro-cabinet",
+      "level": "Console row · 563 mm",
+      "length": 0.3100000023841858,
+      "position": [
+        -0.17999999999999994,
+        0.5630000000000001,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L011",
+      "module": "retro-cabinet",
+      "level": "Console row · 563 mm",
+      "length": 0.3100000023841858,
+      "position": [
+        0.17999999999999994,
+        0.5630000000000001,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L012",
+      "module": "retro-cabinet",
+      "level": "Console row · 563 mm",
+      "length": 0.3100000023841858,
+      "position": [
+        0.54,
+        0.5630000000000001,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L013",
+      "module": "retro-cabinet",
+      "level": "Console row · 733 mm",
+      "length": 0.3100000023841858,
+      "position": [
+        -0.54,
+        0.733,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L014",
+      "module": "retro-cabinet",
+      "level": "Console row · 733 mm",
+      "length": 0.3100000023841858,
+      "position": [
+        -0.17999999999999994,
+        0.733,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L015",
+      "module": "retro-cabinet",
+      "level": "Console row · 733 mm",
+      "length": 0.3100000023841858,
+      "position": [
+        0.17999999999999994,
+        0.733,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L016",
+      "module": "retro-cabinet",
+      "level": "Console row · 733 mm",
+      "length": 0.3100000023841858,
+      "position": [
+        0.54,
+        0.733,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L017",
+      "module": "retro-cabinet",
+      "level": "Left display · 1180 mm",
+      "length": 0.20499999821186066,
+      "position": [
+        -0.8474999999999999,
+        1.1800000000000002,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L018",
+      "module": "retro-cabinet",
+      "level": "Left display · 1585 mm",
+      "length": 0.20499999821186066,
+      "position": [
+        -0.8474999999999999,
+        1.5850000000000002,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L019",
+      "module": "retro-cabinet",
+      "level": "Left display · 1990 mm",
+      "length": 0.20499999821186066,
+      "position": [
+        -0.8474999999999999,
+        1.9900000000000002,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L020",
+      "module": "retro-cabinet",
+      "level": "Left display · 2395 mm",
+      "length": 0.20499999821186066,
+      "position": [
+        -0.8474999999999999,
+        2.395,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L021",
+      "module": "retro-cabinet",
+      "level": "Right display · 1180 mm",
+      "length": 0.20499999821186066,
+      "position": [
+        0.8474999999999999,
+        1.1800000000000002,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L022",
+      "module": "retro-cabinet",
+      "level": "Right display · 1585 mm",
+      "length": 0.20499999821186066,
+      "position": [
+        0.8474999999999999,
+        1.5850000000000002,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L023",
+      "module": "retro-cabinet",
+      "level": "Right display · 1990 mm",
+      "length": 0.20499999821186066,
+      "position": [
+        0.8474999999999999,
+        1.9900000000000002,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L024",
+      "module": "retro-cabinet",
+      "level": "Right display · 2395 mm",
+      "length": 0.20499999821186066,
+      "position": [
+        0.8474999999999999,
+        2.395,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L025",
+      "module": "retro-cabinet",
+      "level": "Above TV · 2414 mm",
+      "length": 1.3899999856948853,
+      "position": [
+        0,
+        2.414,
+        0.32
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L026",
+      "module": "fixed-modern-PC",
+      "level": "Shelf 1484 mm",
+      "length": 0.8650000095367432,
+      "position": [
+        -1.4375,
+        1.484,
+        0.22
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L027",
+      "module": "fixed-modern-PC",
+      "level": "Shelf 1794 mm",
+      "length": 0.8650000095367432,
+      "position": [
+        -1.4375,
+        1.794,
+        0.22
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L028",
+      "module": "fixed-modern-PC",
+      "level": "Shelf 2104 mm",
+      "length": 0.8650000095367432,
+      "position": [
+        -1.4375,
+        2.104,
+        0.22
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L029",
+      "module": "music",
+      "level": "Shelf 1478 mm",
+      "length": 1.4500000476837158,
+      "position": [
+        1.7,
+        1.478,
+        1.6242640687119285
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L030",
+      "module": "music",
+      "level": "Shelf 1788 mm",
+      "length": 1.4500000476837158,
+      "position": [
+        1.7,
+        1.788,
+        1.6242640687119285
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L031",
+      "module": "music",
+      "level": "Shelf 2098 mm",
+      "length": 1.4500000476837158,
+      "position": [
+        1.7,
+        2.098,
+        1.6242640687119285
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L032",
+      "module": "retro-PC",
+      "level": "Shelf 1478 mm",
+      "length": 0.8600000143051147,
+      "position": [
+        1.4275,
+        1.478,
+        0.14
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L033",
+      "module": "retro-PC",
+      "level": "Shelf 1478 mm",
+      "length": 0.8711270093917847,
+      "position": [
+        1.3678679656440358,
+        1.478,
+        0.5221320343559642
+      ],
+      "direction": [
+        0,
+        -0.38268343236508984,
+        0,
+        0.9238795325112867
+      ]
+    },
+    {
+      "id": "L034",
+      "module": "retro-PC",
+      "level": "Shelf 1788 mm",
+      "length": 0.8600000143051147,
+      "position": [
+        1.4275,
+        1.788,
+        0.14
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L035",
+      "module": "retro-PC",
+      "level": "Shelf 1788 mm",
+      "length": 0.8711270093917847,
+      "position": [
+        1.3678679656440358,
+        1.788,
+        0.5221320343559642
+      ],
+      "direction": [
+        0,
+        -0.38268343236508984,
+        0,
+        0.9238795325112867
+      ]
+    },
+    {
+      "id": "L036",
+      "module": "retro-PC",
+      "level": "Shelf 2098 mm",
+      "length": 0.8600000143051147,
+      "position": [
+        1.4275,
+        2.098,
+        0.14
+      ],
+      "direction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "L037",
+      "module": "retro-PC",
+      "level": "Shelf 2098 mm",
+      "length": 0.8711270093917847,
+      "position": [
+        1.3678679656440358,
+        2.098,
+        0.5221320343559642
+      ],
+      "direction": [
+        0,
+        -0.38268343236508984,
+        0,
+        0.9238795325112867
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "retro-cabinet",
+      "name": "Retro gaming cabinet"
+    },
+    {
+      "id": "retro-PC",
+      "name": "Retro PC corner"
+    },
+    {
+      "id": "music",
+      "name": "Music return"
+    },
+    {
+      "id": "fixed-modern-PC",
+      "name": "Fixed gaming PC / UPS"
+    }
+  ],
+  "notes": "Nominal geometry; verify sheet material, edge banding, joinery, wall fixings, glass safety specification and equipment ventilation before fabrication. Equipment, hardware and lift frame are excluded.",
+  "electrical": {
+    "voltage": 24,
+    "wattsPerMetre": 14.4,
+    "groups": [
+      {
+        "id": "G01",
+        "module": "retro-cabinet",
+        "level": "Console row · 223 mm",
+        "strips": [
+          {
+            "id": "L001",
+            "module": "retro-cabinet",
+            "level": "Console row · 223 mm",
+            "length": 0.3100000023841858,
+            "position": [
+              -0.54,
+              0.223,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "L002",
+            "module": "retro-cabinet",
+            "level": "Console row · 223 mm",
+            "length": 0.3100000023841858,
+            "position": [
+              -0.17999999999999994,
+              0.223,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "L003",
+            "module": "retro-cabinet",
+            "level": "Console row · 223 mm",
+            "length": 0.3100000023841858,
+            "position": [
+              0.17999999999999994,
+              0.223,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "L004",
+            "module": "retro-cabinet",
+            "level": "Console row · 223 mm",
+            "length": 0.3100000023841858,
+            "position": [
+              0.54,
+              0.223,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "length": 1.2400000095367432,
+        "watts": 17.8560001373291,
+        "amps": 0.7440000057220458
+      },
+      {
+        "id": "G02",
+        "module": "retro-cabinet",
+        "level": "Console row · 393 mm",
+        "strips": [
+          {
+            "id": "L005",
+            "module": "retro-cabinet",
+            "level": "Console row · 393 mm",
+            "length": 0.3100000023841858,
+            "position": [
+              -0.54,
+              0.39300000000000007,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "L006",
+            "module": "retro-cabinet",
+            "level": "Console row · 393 mm",
+            "length": 0.3100000023841858,
+            "position": [
+              -0.17999999999999994,
+              0.39300000000000007,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "L007",
+            "module": "retro-cabinet",
+            "level": "Console row · 393 mm",
+            "length": 0.3100000023841858,
+            "position": [
+              0.17999999999999994,
+              0.39300000000000007,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "L008",
+            "module": "retro-cabinet",
+            "level": "Console row · 393 mm",
+            "length": 0.3100000023841858,
+            "position": [
+              0.54,
+              0.39300000000000007,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "length": 1.2400000095367432,
+        "watts": 17.8560001373291,
+        "amps": 0.7440000057220458
+      },
+      {
+        "id": "G03",
+        "module": "retro-cabinet",
+        "level": "Console row · 563 mm",
+        "strips": [
+          {
+            "id": "L009",
+            "module": "retro-cabinet",
+            "level": "Console row · 563 mm",
+            "length": 0.3100000023841858,
+            "position": [
+              -0.54,
+              0.5630000000000001,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "L010",
+            "module": "retro-cabinet",
+            "level": "Console row · 563 mm",
+            "length": 0.3100000023841858,
+            "position": [
+              -0.17999999999999994,
+              0.5630000000000001,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "L011",
+            "module": "retro-cabinet",
+            "level": "Console row · 563 mm",
+            "length": 0.3100000023841858,
+            "position": [
+              0.17999999999999994,
+              0.5630000000000001,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "L012",
+            "module": "retro-cabinet",
+            "level": "Console row · 563 mm",
+            "length": 0.3100000023841858,
+            "position": [
+              0.54,
+              0.5630000000000001,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "length": 1.2400000095367432,
+        "watts": 17.8560001373291,
+        "amps": 0.7440000057220458
+      },
+      {
+        "id": "G04",
+        "module": "retro-cabinet",
+        "level": "Console row · 733 mm",
+        "strips": [
+          {
+            "id": "L013",
+            "module": "retro-cabinet",
+            "level": "Console row · 733 mm",
+            "length": 0.3100000023841858,
+            "position": [
+              -0.54,
+              0.733,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "L014",
+            "module": "retro-cabinet",
+            "level": "Console row · 733 mm",
+            "length": 0.3100000023841858,
+            "position": [
+              -0.17999999999999994,
+              0.733,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "L015",
+            "module": "retro-cabinet",
+            "level": "Console row · 733 mm",
+            "length": 0.3100000023841858,
+            "position": [
+              0.17999999999999994,
+              0.733,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "L016",
+            "module": "retro-cabinet",
+            "level": "Console row · 733 mm",
+            "length": 0.3100000023841858,
+            "position": [
+              0.54,
+              0.733,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "length": 1.2400000095367432,
+        "watts": 17.8560001373291,
+        "amps": 0.7440000057220458
+      },
+      {
+        "id": "G05",
+        "module": "retro-cabinet",
+        "level": "Left display · 1180 mm",
+        "strips": [
+          {
+            "id": "L017",
+            "module": "retro-cabinet",
+            "level": "Left display · 1180 mm",
+            "length": 0.20499999821186066,
+            "position": [
+              -0.8474999999999999,
+              1.1800000000000002,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "length": 0.20499999821186066,
+        "watts": 2.9519999742507936,
+        "amps": 0.1229999989271164
+      },
+      {
+        "id": "G06",
+        "module": "retro-cabinet",
+        "level": "Left display · 1585 mm",
+        "strips": [
+          {
+            "id": "L018",
+            "module": "retro-cabinet",
+            "level": "Left display · 1585 mm",
+            "length": 0.20499999821186066,
+            "position": [
+              -0.8474999999999999,
+              1.5850000000000002,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "length": 0.20499999821186066,
+        "watts": 2.9519999742507936,
+        "amps": 0.1229999989271164
+      },
+      {
+        "id": "G07",
+        "module": "retro-cabinet",
+        "level": "Left display · 1990 mm",
+        "strips": [
+          {
+            "id": "L019",
+            "module": "retro-cabinet",
+            "level": "Left display · 1990 mm",
+            "length": 0.20499999821186066,
+            "position": [
+              -0.8474999999999999,
+              1.9900000000000002,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "length": 0.20499999821186066,
+        "watts": 2.9519999742507936,
+        "amps": 0.1229999989271164
+      },
+      {
+        "id": "G08",
+        "module": "retro-cabinet",
+        "level": "Left display · 2395 mm",
+        "strips": [
+          {
+            "id": "L020",
+            "module": "retro-cabinet",
+            "level": "Left display · 2395 mm",
+            "length": 0.20499999821186066,
+            "position": [
+              -0.8474999999999999,
+              2.395,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "length": 0.20499999821186066,
+        "watts": 2.9519999742507936,
+        "amps": 0.1229999989271164
+      },
+      {
+        "id": "G09",
+        "module": "retro-cabinet",
+        "level": "Right display · 1180 mm",
+        "strips": [
+          {
+            "id": "L021",
+            "module": "retro-cabinet",
+            "level": "Right display · 1180 mm",
+            "length": 0.20499999821186066,
+            "position": [
+              0.8474999999999999,
+              1.1800000000000002,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "length": 0.20499999821186066,
+        "watts": 2.9519999742507936,
+        "amps": 0.1229999989271164
+      },
+      {
+        "id": "G10",
+        "module": "retro-cabinet",
+        "level": "Right display · 1585 mm",
+        "strips": [
+          {
+            "id": "L022",
+            "module": "retro-cabinet",
+            "level": "Right display · 1585 mm",
+            "length": 0.20499999821186066,
+            "position": [
+              0.8474999999999999,
+              1.5850000000000002,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "length": 0.20499999821186066,
+        "watts": 2.9519999742507936,
+        "amps": 0.1229999989271164
+      },
+      {
+        "id": "G11",
+        "module": "retro-cabinet",
+        "level": "Right display · 1990 mm",
+        "strips": [
+          {
+            "id": "L023",
+            "module": "retro-cabinet",
+            "level": "Right display · 1990 mm",
+            "length": 0.20499999821186066,
+            "position": [
+              0.8474999999999999,
+              1.9900000000000002,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "length": 0.20499999821186066,
+        "watts": 2.9519999742507936,
+        "amps": 0.1229999989271164
+      },
+      {
+        "id": "G12",
+        "module": "retro-cabinet",
+        "level": "Right display · 2395 mm",
+        "strips": [
+          {
+            "id": "L024",
+            "module": "retro-cabinet",
+            "level": "Right display · 2395 mm",
+            "length": 0.20499999821186066,
+            "position": [
+              0.8474999999999999,
+              2.395,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "length": 0.20499999821186066,
+        "watts": 2.9519999742507936,
+        "amps": 0.1229999989271164
+      },
+      {
+        "id": "G13",
+        "module": "retro-cabinet",
+        "level": "Above TV · 2414 mm",
+        "strips": [
+          {
+            "id": "L025",
+            "module": "retro-cabinet",
+            "level": "Above TV · 2414 mm",
+            "length": 1.3899999856948853,
+            "position": [
+              0,
+              2.414,
+              0.32
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "length": 1.3899999856948853,
+        "watts": 20.015999794006348,
+        "amps": 0.8339999914169312
+      },
+      {
+        "id": "G14",
+        "module": "fixed-modern-PC",
+        "level": "Shelf 1484 mm",
+        "strips": [
+          {
+            "id": "L026",
+            "module": "fixed-modern-PC",
+            "level": "Shelf 1484 mm",
+            "length": 0.8650000095367432,
+            "position": [
+              -1.4375,
+              1.484,
+              0.22
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "length": 0.8650000095367432,
+        "watts": 12.456000137329102,
+        "amps": 0.519000005722046
+      },
+      {
+        "id": "G15",
+        "module": "fixed-modern-PC",
+        "level": "Shelf 1794 mm",
+        "strips": [
+          {
+            "id": "L027",
+            "module": "fixed-modern-PC",
+            "level": "Shelf 1794 mm",
+            "length": 0.8650000095367432,
+            "position": [
+              -1.4375,
+              1.794,
+              0.22
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "length": 0.8650000095367432,
+        "watts": 12.456000137329102,
+        "amps": 0.519000005722046
+      },
+      {
+        "id": "G16",
+        "module": "fixed-modern-PC",
+        "level": "Shelf 2104 mm",
+        "strips": [
+          {
+            "id": "L028",
+            "module": "fixed-modern-PC",
+            "level": "Shelf 2104 mm",
+            "length": 0.8650000095367432,
+            "position": [
+              -1.4375,
+              2.104,
+              0.22
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "length": 0.8650000095367432,
+        "watts": 12.456000137329102,
+        "amps": 0.519000005722046
+      },
+      {
+        "id": "G17",
+        "module": "music",
+        "level": "Shelf 1478 mm",
+        "strips": [
+          {
+            "id": "L029",
+            "module": "music",
+            "level": "Shelf 1478 mm",
+            "length": 1.4500000476837158,
+            "position": [
+              1.7,
+              1.478,
+              1.6242640687119285
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "length": 1.4500000476837158,
+        "watts": 20.88000068664551,
+        "amps": 0.8700000286102295
+      },
+      {
+        "id": "G18",
+        "module": "music",
+        "level": "Shelf 1788 mm",
+        "strips": [
+          {
+            "id": "L030",
+            "module": "music",
+            "level": "Shelf 1788 mm",
+            "length": 1.4500000476837158,
+            "position": [
+              1.7,
+              1.788,
+              1.6242640687119285
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "length": 1.4500000476837158,
+        "watts": 20.88000068664551,
+        "amps": 0.8700000286102295
+      },
+      {
+        "id": "G19",
+        "module": "music",
+        "level": "Shelf 2098 mm",
+        "strips": [
+          {
+            "id": "L031",
+            "module": "music",
+            "level": "Shelf 2098 mm",
+            "length": 1.4500000476837158,
+            "position": [
+              1.7,
+              2.098,
+              1.6242640687119285
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "length": 1.4500000476837158,
+        "watts": 20.88000068664551,
+        "amps": 0.8700000286102295
+      },
+      {
+        "id": "G20",
+        "module": "retro-PC",
+        "level": "Shelf 1478 mm",
+        "strips": [
+          {
+            "id": "L032",
+            "module": "retro-PC",
+            "level": "Shelf 1478 mm",
+            "length": 0.8600000143051147,
+            "position": [
+              1.4275,
+              1.478,
+              0.14
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "L033",
+            "module": "retro-PC",
+            "level": "Shelf 1478 mm",
+            "length": 0.8711270093917847,
+            "position": [
+              1.3678679656440358,
+              1.478,
+              0.5221320343559642
+            ],
+            "direction": [
+              0,
+              -0.38268343236508984,
+              0,
+              0.9238795325112867
+            ]
+          }
+        ],
+        "length": 1.7311270236968994,
+        "watts": 24.928229141235352,
+        "amps": 1.0386762142181396
+      },
+      {
+        "id": "G21",
+        "module": "retro-PC",
+        "level": "Shelf 1788 mm",
+        "strips": [
+          {
+            "id": "L034",
+            "module": "retro-PC",
+            "level": "Shelf 1788 mm",
+            "length": 0.8600000143051147,
+            "position": [
+              1.4275,
+              1.788,
+              0.14
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "L035",
+            "module": "retro-PC",
+            "level": "Shelf 1788 mm",
+            "length": 0.8711270093917847,
+            "position": [
+              1.3678679656440358,
+              1.788,
+              0.5221320343559642
+            ],
+            "direction": [
+              0,
+              -0.38268343236508984,
+              0,
+              0.9238795325112867
+            ]
+          }
+        ],
+        "length": 1.7311270236968994,
+        "watts": 24.928229141235352,
+        "amps": 1.0386762142181396
+      },
+      {
+        "id": "G22",
+        "module": "retro-PC",
+        "level": "Shelf 2098 mm",
+        "strips": [
+          {
+            "id": "L036",
+            "module": "retro-PC",
+            "level": "Shelf 2098 mm",
+            "length": 0.8600000143051147,
+            "position": [
+              1.4275,
+              2.098,
+              0.14
+            ],
+            "direction": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "L037",
+            "module": "retro-PC",
+            "level": "Shelf 2098 mm",
+            "length": 0.8711270093917847,
+            "position": [
+              1.3678679656440358,
+              2.098,
+              0.5221320343559642
+            ],
+            "direction": [
+              0,
+              -0.38268343236508984,
+              0,
+              0.9238795325112867
+            ]
+          }
+        ],
+        "length": 1.7311270236968994,
+        "watts": 24.928229141235352,
+        "amps": 1.0386762142181396
+      }
+    ]
+  }
+}

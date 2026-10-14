@@ -1,0 +1,22 @@
+{
+  "width": 1.95,
+  "depth": 0.4,
+  "height": 2.5,
+  "tvInches": 55,
+  "musicDepth": 0.45,
+  "cornerFront": 0.6,
+  "centerCabinet": true,
+  "cabinetCenter": 0,
+  "glass": true,
+  "lighting": true,
+  "storage": true,
+  "upper": true,
+  "backPanels": true,
+  "sidePanels": false,
+  "tvHeight": 1.32,
+  "tvOffset": 0,
+  "consoleRows": 4,
+  "upperShelfHeight": 2.0,
+  "rightDisplay": true,
+  "upperRows": 1
+}

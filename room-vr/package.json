@@ -1,0 +1,1 @@
+{"name":"basement-studio-vr","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node serve.mjs"},"description":"Local life-size WebXR room viewer; all Three.js dependencies are vendored."}
